@@ -80,7 +80,8 @@ while(cont){
             answer.removeAll(set1);
             return answer;
         };
-        break;
+            System.out.println("The set diference is: "+ difference2.answer());
+            break;
         case 5:
         if(set1.containsAll(set2) && set2.containsAll(set1)){
             System.out.println("the two sets are equal");
@@ -102,7 +103,7 @@ while(cont){
             System.out.println("Good day to you");
             break;
         default:
-            System.out.println("Invalid option. Please choose a number between 1 and 4.");
+            System.out.println("Invalid option. Please choose a number between 1 and 6.");
             break;
         }
 }
